@@ -24,13 +24,13 @@ const CoinData = (props) => {
                     <p>
                         <strong>Precio:</strong> 
                         <div>
-                            L. {(props.coin.current_price*props.lempiraValue).toLocaleString()}
+                            $. {props.coin.current_price.toLocaleString()}
                         </div>
                     </p>
                     <p>
                         <strong>Último Cambio (24h):</strong> 
                         <div style={colorChange()}>
-                        L. {(props.coin.price_change_24h*props.lempiraValue).toLocaleString()}  
+                        $. {props.coin.price_change_24h.toLocaleString()}  
                         </div>
                     </p>
                 </div>
