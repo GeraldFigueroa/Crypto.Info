@@ -1,0 +1,155 @@
+/* Generales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #212f3c;
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.header h1 {
+  color: #d6dbdf;
+  font-size: 45px;
+}
+.header input {
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+/*Caja de todo el conjunto*/
+.coinsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*Caja individual*/
+.coinBox {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  margin: 40px 30px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.coinBox:hover {
+  height: 375px;
+}
+
+/*img*/
+.coinBox .imgBx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+}
+.coinBox .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/*Content*/
+.coinBox .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+}
+.coinBox .content h2 {
+  margin-top: 70px;
+  visibility: visible;
+  opacity: 1;
+  color: #85929e;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.coinBox .content .content-p {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.coinBox:hover .content .content-p {
+  visibility: visible;
+  opacity: 1;
+  font-size: 20px;
+  transition-delay: 0.3s;
+}
+.coinBox:hover .content .content-p p div {
+  margin-bottom: 10px;
+}
+.coinBox:hover .content h2 {
+  color: #2e4053;
+  transition-delay: 0.3s;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 70px;
+  background-color: #050e15;
+  color: white;
+  font-size: 20px;
+}
+.footer a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.footer p {
+  margin: auto;
+}
+.footer a:hover {
+  transition: 0.5s;
+  font-size: 25px;
+  color: orange;
+}
+
+.footer p div {
+  font-size: 25px;
+  font-weight: 300;
+  color: #d6dbdf;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer p,
+  .footer a {
+    margin-bottom: 20px;
+  }
+
+  .footer p {
+    margin-top: 20px;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer p div {
+    display: flex;
+    margin-left: 5px;
+  }
+}
