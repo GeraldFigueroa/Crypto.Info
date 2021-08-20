@@ -41,8 +41,8 @@ const CoinList = () => {
     }
 
     useEffect(() => {
-        getCoins('');
         LempValue();
+        getCoins('');
     }, []);
     
 
