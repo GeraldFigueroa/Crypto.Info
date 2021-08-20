@@ -14,7 +14,7 @@ const CoinList = () => {
 
     //Actualiza el valor del lempira al día utilizando una API
     const LempValue = async () => {
-        const data = await fetch('http://api.exchangeratesapi.io/v1/latest?access_key=c3baeaa981b937959ed1edae21336804')
+        const data = await fetch('//api.exchangeratesapi.io/v1/latest?access_key=c3baeaa981b937959ed1edae21336804')
         .then(response => response.json())
         
         setLempiraValue(data.rates.HNL);
