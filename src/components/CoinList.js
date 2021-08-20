@@ -28,11 +28,11 @@ const CoinList = () => {
         const response = await fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=100&page=1&sparkline=false"); //Respuesta de la API
         const data = await response.json(); // Obtenemos los datos en formato json
 
-        if(texto == ''){
+        if(texto === ''){
             setCoinList(data);
         } else{
             const coinsIncluidas = [];
-            data.map(coin => {
+            data.forEach(coin => {
                 if(coin.name.toLocaleLowerCase().includes(texto)){
                     coinsIncluidas.push(coin);
                 }
