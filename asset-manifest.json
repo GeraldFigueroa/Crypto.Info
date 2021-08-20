@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Crypto.Info/static/css/main.ab73ddc6.chunk.css",
-    "main.js": "/Crypto.Info/static/js/main.acb97b13.chunk.js",
-    "main.js.map": "/Crypto.Info/static/js/main.acb97b13.chunk.js.map",
+    "main.css": "/Crypto.Info/static/css/main.258a1326.chunk.css",
+    "main.js": "/Crypto.Info/static/js/main.db8dcac8.chunk.js",
+    "main.js.map": "/Crypto.Info/static/js/main.db8dcac8.chunk.js.map",
     "runtime-main.js": "/Crypto.Info/static/js/runtime-main.842734a6.js",
     "runtime-main.js.map": "/Crypto.Info/static/js/runtime-main.842734a6.js.map",
     "static/js/2.f85528e3.chunk.js": "/Crypto.Info/static/js/2.f85528e3.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.aebbb19b.chunk.js": "/Crypto.Info/static/js/3.aebbb19b.chunk.js",
     "static/js/3.aebbb19b.chunk.js.map": "/Crypto.Info/static/js/3.aebbb19b.chunk.js.map",
     "index.html": "/Crypto.Info/index.html",
-    "static/css/main.ab73ddc6.chunk.css.map": "/Crypto.Info/static/css/main.ab73ddc6.chunk.css.map",
+    "static/css/main.258a1326.chunk.css.map": "/Crypto.Info/static/css/main.258a1326.chunk.css.map",
     "static/js/2.f85528e3.chunk.js.LICENSE.txt": "/Crypto.Info/static/js/2.f85528e3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.842734a6.js",
     "static/js/2.f85528e3.chunk.js",
-    "static/css/main.ab73ddc6.chunk.css",
-    "static/js/main.acb97b13.chunk.js"
+    "static/css/main.258a1326.chunk.css",
+    "static/js/main.db8dcac8.chunk.js"
   ]
 }
